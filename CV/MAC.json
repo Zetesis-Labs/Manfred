@@ -8,7 +8,7 @@
     "profile": {
       "name": "Rubén",
       "surnames": "García Hernando",
-      "title": "Engineer, Technical Leader",
+      "title": "Technical Leader, Platform Architect, AI Researcher",
       "description": "I am a passionate developer with a lifelong interest in technology and programming. Over the years, I have developed a versatile skill set that goes beyond technical expertise—I bridge the gap between complex technical challenges and business needs. My experience spans from backend development and DevOps to frontend work and mobile technologies, enabling me to approach problems holistically and deliver results that positively impact both the product and the organization.\n\nI thrive on transforming challenges into opportunities, whether by optimizing processes, reducing costs, or pioneering innovative solutions that streamline operations. My commitment to continuous learning and my adaptability have allowed me to collaborate effectively with cross-functional teams, ensuring that technical implementations are perfectly aligned with business objectives.\n\nI share a lot of my code at my [Github page](https://github.com/Fiser12)\n\n### What am I looking for?\n\n1. **Responsibilities**: I seek a role where I can contribute not only as a developer but also as a strategic partner in the value creation process of the company and its products.\n2. **Challenging projects**: I am eager to tackle innovative, demanding projects that push the boundaries of what’s possible and further expand my expertise.\n3. **Teamwork**: I value joining a collaborative team that is committed to both technical excellence and delivering high-quality solutions.\n4. **Mentorship and Collaboration**: I appreciate opportunities for mutual learning, where both my peers and I can grow and innovate together.\n5. **Continuous learning**: I am dedicated to staying abreast of emerging trends and technologies, ensuring that my work continues to drive progress and efficiency.\n\nContact me at: [ruben@nexolabs.xyz](mailto:ruben@nexolabs.xyz) or at my [Linkedin](https://www.linkedin.com/in/rgarciah/)",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/05/14/e4e74449-7e14-4ac9-90a4-5198886d5eb9_linkedin-photo-37771.linkedin-photo-37771",
@@ -130,6 +130,44 @@
       },
       {
         "organization": {
+          "name": "IronTec"
+        },
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2025-01-01",
+            "challenges": [
+              {
+                "description": "Development of **Nixon**, a multi-technology audio transcription platform. Built the **backend with Python 3.13 and FastAPI**, following **DDD + CQRS** architecture with event-driven design and repository pattern. Integrated multiple AI transcription providers including **Deepgram, OpenAI Whisper, Google Cloud Speech, and Groq**. Implemented a **RAG pipeline** for intelligent document retrieval, automated report generation, and full-text search with **Typesense**.\n\nThe **frontend** is built with **React and TypeScript** using **Vite**, **Material-UI (MUI)**, and **Keycloak** for authentication. The project is organized as a **monorepo with pnpm and Turborepo**, featuring shared UI component libraries and auto-generated TypeScript types from the OpenAPI schema.\n\nInfrastructure includes **PostgreSQL 17 with pgvector** for vector embeddings, **Redis** for background job processing via Taskiq, and **MinIO** for object storage. The platform supports comprehensive testing (unit, integration, BDD) and is deployed via Docker and Kubernetes."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "FastAPI",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Zetesis",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/08/aa6364a9-be46-490f-b0d8-15d66db91cd7_favicon_color_bg_neg.png",
@@ -143,16 +181,28 @@
             "startDate": "2023-06-01",
             "challenges": [
               {
-                "description": "After returning from my work assignment in Geneva, I knew I wanted to go freelance. I quickly began searching for clients, and by June 2023 I had formalized my status as self-employed and started invoicing. Initially, my plan was to generate income through the **App Store with my app, Formidable**, something that later I stopped to focused more in help clients with their problems. One of my projects in this period was the website https://sarekin.eus/. Developed with **React and Remix** and deployed with Docker.\n\nAfter completing a few projects, I found it challenging to secure additional clients, so I took on a Tech Lead role at NaizFit. I managed my existing freelance work while balancing my new responsibilities. Unfortunately, due to funding issues, the startup had to downsize just four months into my role, which significantly reduced their growing expectations. I continued working with them as a freelancer to complete a **Kotlin Multiplatform** project I had started, partly as an agreement and a favor to help during a difficult time. This project stands out as one of my most challenging and rewarding experiences, **showcasing my skills as a programmer**.\n\nMeanwhile, I have continued seeking new clients to sustain my freelance activity. One notable project is a web portal developed with **React, NextJS, PayloadCMS, Tailwind CSS, Stripe, Keycloak, and Docker**. Although the coding challenges were moderate, designing the software architecture, ensuring **microservices interoperability**, gathering requirements, and managing the project and client relations pushed my abilities further. In addition, a designer and I collaborated to build a **design system** from scratch, familiarizing ourselves with **Figma and Storybook**. We established a work distribution system in which the designer learned to code layouts in React, significantly **reducing both development time and costs**.\n\nAdditionally, I have secured another client for whom I am setting up **Docker-based systems** to streamline internal information flows. In this project, I serve as a tech lead, implementing tailored solutions to ensure smooth communication within the company.\n\nTo manage these projects—where I’m responsible for the full development, including frontend, backend, docker-container creation, and deployment—I set up a **home infrastructure with two servers**. These servers handle tasks like deployments using **Jenkins**, secret management in conjunction with Jenkins via 1Password-CLI, and other functions related to systems and network management, as well as home automation (though the latter is not part of my freelance work). Additionally, I have built small projects such as **nodeBB forums for online communities**, reflecting my passion for help in building system to streamline internal communications and add value to this communities.\n\n\n\n\n\n\n"
+                "description": "After returning from my work assignment in Geneva, I knew I wanted to go freelance. I quickly began searching for clients, and by June 2023 I had formalized my status as self-employed and started invoicing. Initially, my plan was to generate income through the **App Store with my app, Formidable**, something that later I stopped to focus more on helping clients with their problems. One of my projects in this period was the website https://sarekin.eus/, developed with **React and Remix** and deployed with Docker.\n\nAfter completing a few projects, I found it challenging to secure additional clients, so I took on a Tech Lead role at NaizFit. I managed my existing freelance work while balancing my new responsibilities. Unfortunately, due to funding issues, the startup had to downsize just four months into my role. I continued working with them as a freelancer to complete a **Kotlin Multiplatform** project I had started, which stands out as one of my most challenging and rewarding experiences.\n\nA notable ongoing project is the **Zetesis Portal**, a web platform developed with **Payload CMS 3.x, Next.js 16, React 19, TypeScript, and Tailwind CSS**. The portal integrates **AI-powered search**, **Stripe** for payments, and **Keycloak** for authentication. I developed and published multiple **npm packages under @zetesis/*** scope, including payload-indexer, payload-typesense, payload-lexical-blocks-builder, payload-taxonomies, and chat-agent. The project is organized as a **pnpm monorepo with Turborepo** and deployed on **Kubernetes with ArgoCD, Helm charts, and GitHub Actions CI/CD**.\n\nIn late 2024, I undertook a major **infrastructure evolution**: migrating from Jenkins and 1Password to a full **GitOps stack**. I built a **Kubernetes cluster on Talos Linux** with **ArgoCD** for continuous deployment, **Cilium** as CNI, **Traefik** as ingress controller, **Harbor** as container registry, **Gitea** for self-hosted Git, **Infisical** for secrets management, **K8up with restic and MinIO** for backups, **CrowdSec** for security, and **GitHub Actions with self-hosted runners**. The entire infrastructure is managed declaratively through a GitOps repository with an App-of-Apps pattern.\n\nStarting in 2025, I expanded into **AI-powered backend development** with the Nixon project at IronTec, building a Python/FastAPI platform with DDD+CQRS architecture and integrations with multiple AI transcription providers (Deepgram, Whisper, Google Speech, Groq)."
               }
             ],
             "competences": [
               {
-                "name": "Docker",
+                "name": "Kubernetes",
                 "type": "technology"
               },
               {
-                "name": "Kotlin Multiplatform Mobile",
+                "name": "ArgoCD",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "FastAPI",
+                "type": "technology"
+              },
+              {
+                "name": "React",
                 "type": "technology"
               },
               {
@@ -160,7 +210,11 @@
                 "type": "technology"
               },
               {
-                "name": "React",
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
                 "type": "technology"
               }
             ]
@@ -290,6 +344,113 @@
       }
     ],
     "projects": [
+      {
+        "details": {
+          "name": "Mileto Infrastructure (GitOps)",
+          "description": "GitOps repository for declarative infrastructure management. Kubernetes cluster on Talos Linux with ArgoCD App-of-Apps pattern, Cilium CNI, Traefik ingress, Harbor registry, Gitea, Infisical secrets, K8up backups with restic/MinIO, CrowdSec security. Docker services managed via doco-cd agent with automatic polling. GitHub Actions with self-hosted runners.",
+          "URL": "https://github.com/Fiser12/Mileto-Infra-GitOps"
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2024-06-01",
+            "competences": [
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "ArgoCD",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Github Actions",
+                "type": "technology"
+              },
+              {
+                "name": "Helm",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Nixon - Audio Transcription Platform",
+          "description": "Multi-technology audio transcription platform. Backend: Python 3.13/FastAPI with DDD+CQRS, event-driven architecture, multiple AI providers (Deepgram, Whisper, Google Speech, Groq), RAG pipeline, Typesense search. Frontend: React/TypeScript with Vite, MUI, Keycloak auth. Monorepo with pnpm + Turborepo. PostgreSQL 17 with pgvector, Redis, MinIO."
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2025-01-01",
+            "competences": [
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "FastAPI",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Zetesis Portal & PayloadAgents",
+          "description": "Web platform built with Payload CMS 3.x, Next.js 16, React 19, TypeScript, and Tailwind CSS. Features AI-powered search, Stripe payments, Keycloak auth, and multi-tenant architecture. Published OSS npm packages: @zetesis/payload-indexer, payload-typesense, payload-lexical-blocks-builder, payload-taxonomies, chat-agent. Monorepo with pnpm workspaces + Turborepo. Deployed on Kubernetes with ArgoCD and Helm.",
+          "URL": "https://github.com/Zetesis-Labs/PayloadAgents"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2024-03-01",
+            "competences": [
+              {
+                "name": "NextJS",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "Tailwind CSS",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
       {
         "details": {
           "name": "Sarekin Web",
@@ -461,25 +622,25 @@
     "hardSkills": [
       {
         "skill": {
-          "name": "Docker",
+          "name": "Kubernetes",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Github Actions",
+          "name": "ArgoCD",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Kotlin Multiplatform Mobile",
+          "name": "Python",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "NextJS",
+          "name": "FastAPI",
           "type": "technology"
         }
       },
@@ -491,13 +652,43 @@
       },
       {
         "skill": {
-          "name": "Swift",
+          "name": "NextJS",
           "type": "technology"
         }
       },
       {
         "skill": {
           "name": "TypeScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Github Actions",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Tailwind CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Swift",
           "type": "technology"
         }
       }
@@ -597,11 +788,11 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "Apple iOS",
+          "name": "Kubernetes",
           "type": "technology"
         },
         {
-          "name": "Docker",
+          "name": "Python",
           "type": "technology"
         },
         {
@@ -609,21 +800,22 @@
           "type": "technology"
         },
         {
-          "name": "Swift",
-          "type": "technology"
-        },
-        {
-          "name": "SwiftUI",
-          "type": "technology"
-        },
-        {
           "name": "TypeScript",
+          "type": "technology"
+        },
+        {
+          "name": "Docker",
+          "type": "technology"
+        },
+        {
+          "name": "FastAPI",
           "type": "technology"
         }
       ],
       "preferredRoles": [
-        "Mobile Developer",
-        "Product Owner"
+        "Full-stack Developer",
+        "DevOps Engineer",
+        "Software Architect"
       ]
     },
     "status": "searchingActively",
@@ -637,15 +829,11 @@
   "manfredSpecificData": {
     "mainStackTechs": [
       {
-        "name": "Docker",
+        "name": "Kubernetes",
         "type": "technology"
       },
       {
-        "name": "Kotlin Multiplatform Mobile",
-        "type": "technology"
-      },
-      {
-        "name": "NextJS",
+        "name": "Python",
         "type": "technology"
       },
       {
@@ -653,12 +841,25 @@
         "type": "technology"
       },
       {
-        "name": "Swift",
+        "name": "TypeScript",
+        "type": "technology"
+      },
+      {
+        "name": "Docker",
         "type": "technology"
       }
     ],
-    "desiredJobDescription": "I am a passionate developer with a lifelong interest in technology and programming. My curiosity drives me to explore new methods and techniques, dedicating much of my free time to independent research. While my professional experience has primarily focused on backend development, DevOps, Frontend and now in Swift Lang and iOS, I have always enjoyed venturing into new areas. For me, the excitement of discovery is an essential aspect of development.\n\n### What am I looking for?\n\n1. **Challenging projects**: Working on innovative and demanding projects to expand my knowledge of iOS development and Swift.\n2. **Teamwork**: Joining a collaborative team of developers who share a commitment to creating high-quality iOS applications.\n3. **Mentorship**: Seeking experienced mentors to guide me through the intricacies of iOS development and best practices.\n4. **Continuous learning**: Staying updated with the latest trends and technologies in iOS development and finding opportunities for professional growth.",
+    "desiredJobDescription": "I am a full-stack engineer with deep experience in GitOps/Kubernetes infrastructure, Python/FastAPI backends with AI integrations, and modern React/Next.js platforms. I build and operate end-to-end systems—from declarative infrastructure with ArgoCD and Talos Linux to DDD+CQRS backends with multiple AI providers and type-safe frontends with design systems.\n\n### What am I looking for?\n\n1. **End-to-end ownership**: Roles where I can own the full stack—infrastructure, backend, and frontend—delivering complete solutions rather than isolated components.\n2. **Challenging technical problems**: Projects involving distributed systems, AI/ML integrations, platform engineering, or complex domain modeling (DDD, CQRS, event-driven).\n3. **Engineering culture**: Teams that value software craftsmanship, infrastructure as code, automated testing, and continuous deployment.\n4. **Collaboration and autonomy**: A balance between collaborative teamwork and the autonomy to make architectural decisions and drive technical direction.\n5. **Continuous learning**: Environments that encourage exploration of emerging technologies and support professional growth.",
     "projects": [
+      {
+        "name": "Mileto Infrastructure (GitOps)"
+      },
+      {
+        "name": "Nixon - Audio Transcription Platform"
+      },
+      {
+        "name": "Zetesis Portal & PayloadAgents"
+      },
       {
         "name": "Formidable"
       },
