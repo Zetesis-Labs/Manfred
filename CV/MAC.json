@@ -358,8 +358,7 @@
       {
         "details": {
           "name": "Mileto Infrastructure (GitOps)",
-          "description": "GitOps repository for declarative infrastructure management. Kubernetes cluster on Talos Linux with ArgoCD App-of-Apps pattern, Cilium CNI, Traefik ingress, Harbor registry, Gitea, Infisical secrets, K8up backups with restic/MinIO, CrowdSec security. Docker services managed via doco-cd agent with automatic polling. GitHub Actions with self-hosted runners.",
-          "URL": "https://github.com/Fiser12/Mileto-Infra-GitOps"
+          "description": "GitOps repository for declarative infrastructure management. Kubernetes cluster on Talos Linux with ArgoCD App-of-Apps pattern, Cilium CNI, Traefik ingress, Harbor registry, Gitea, Infisical secrets, K8up backups with restic/MinIO, CrowdSec security. Docker services managed via doco-cd agent with automatic polling. GitHub Actions with self-hosted runners."
         },
         "type": "sideProject",
         "roles": [
