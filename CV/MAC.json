@@ -598,7 +598,7 @@
     "hardSkills": [
       {
         "skill": {
-          "name": "Docker",
+          "name": "Argo CD",
           "type": "technology"
         }
       },
@@ -800,7 +800,7 @@
   "manfredSpecificData": {
     "mainStackTechs": [
       {
-        "name": "Docker",
+        "name": "Argo CD",
         "type": "technology"
       },
       {
