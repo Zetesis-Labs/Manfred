@@ -44,6 +44,40 @@
     "jobs": [
       {
         "organization": {
+          "name": "IronTec"
+        },
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2025-01-01",
+            "challenges": [
+              {
+                "description": "Development of **Nixon**, a multi-technology audio transcription platform. Built the **backend with Python 3.13 and FastAPI**, following **DDD + CQRS** architecture with event-driven design and repository pattern. Integrated multiple AI transcription providers including **Deepgram, OpenAI Whisper, Google Cloud Speech, and Groq**. Implemented a **RAG pipeline** for intelligent document retrieval, automated report generation, and full-text search with **Typesense**.\n\nThe **frontend** is built with **React and TypeScript** using **Vite**, **Material-UI (MUI)**, and **Keycloak** for authentication. The project is organized as a **monorepo with pnpm and Turborepo**, featuring shared UI component libraries and auto-generated TypeScript types from the OpenAPI schema.\n\nInfrastructure includes **PostgreSQL 17 with pgvector** for vector embeddings, **Redis** for background job processing via Taskiq, and **MinIO** for object storage. The platform supports comprehensive testing (unit, integration, BDD) and is deployed via Docker and Kubernetes."
+              }
+            ],
+            "competences": [
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Naiz Fit",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/05/14/5eddde59-d8cf-48db-b525-a65bb83572f8_linkedin-photo-37771.linkedin-photo-37771",
@@ -130,44 +164,6 @@
       },
       {
         "organization": {
-          "name": "IronTec"
-        },
-        "roles": [
-          {
-            "name": "Software Engineer",
-            "startDate": "2025-01-01",
-            "challenges": [
-              {
-                "description": "Development of **Nixon**, a multi-technology audio transcription platform. Built the **backend with Python 3.13 and FastAPI**, following **DDD + CQRS** architecture with event-driven design and repository pattern. Integrated multiple AI transcription providers including **Deepgram, OpenAI Whisper, Google Cloud Speech, and Groq**. Implemented a **RAG pipeline** for intelligent document retrieval, automated report generation, and full-text search with **Typesense**.\n\nThe **frontend** is built with **React and TypeScript** using **Vite**, **Material-UI (MUI)**, and **Keycloak** for authentication. The project is organized as a **monorepo with pnpm and Turborepo**, featuring shared UI component libraries and auto-generated TypeScript types from the OpenAPI schema.\n\nInfrastructure includes **PostgreSQL 17 with pgvector** for vector embeddings, **Redis** for background job processing via Taskiq, and **MinIO** for object storage. The platform supports comprehensive testing (unit, integration, BDD) and is deployed via Docker and Kubernetes."
-              }
-            ],
-            "competences": [
-              {
-                "name": "Python",
-                "type": "technology"
-              },
-              {
-                "name": "FastAPI",
-                "type": "technology"
-              },
-              {
-                "name": "React",
-                "type": "technology"
-              },
-              {
-                "name": "TypeScript",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
           "name": "Zetesis",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/08/aa6364a9-be46-490f-b0d8-15d66db91cd7_favicon_color_bg_neg.png",
@@ -186,23 +182,11 @@
             ],
             "competences": [
               {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
                 "name": "Kubernetes",
-                "type": "technology"
-              },
-              {
-                "name": "ArgoCD",
-                "type": "technology"
-              },
-              {
-                "name": "Python",
-                "type": "technology"
-              },
-              {
-                "name": "FastAPI",
-                "type": "technology"
-              },
-              {
-                "name": "React",
                 "type": "technology"
               },
               {
@@ -210,7 +194,11 @@
                 "type": "technology"
               },
               {
-                "name": "Docker",
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "React",
                 "type": "technology"
               },
               {
@@ -346,6 +334,37 @@
     "projects": [
       {
         "details": {
+          "name": "Nixon - Audio Transcription Platform",
+          "description": "Multi-technology audio transcription platform. Backend: Python 3.13/FastAPI with DDD+CQRS, event-driven architecture, multiple AI providers (Deepgram, Whisper, Google Speech, Groq), RAG pipeline, Typesense search. Frontend: React/TypeScript with Vite, MUI, Keycloak auth. Monorepo with pnpm + Turborepo. PostgreSQL 17 with pgvector, Redis, MinIO."
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2025-01-01",
+            "competences": [
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
           "name": "Mileto Infrastructure (GitOps)",
           "description": "GitOps repository for declarative infrastructure management. Kubernetes cluster on Talos Linux with ArgoCD App-of-Apps pattern, Cilium CNI, Traefik ingress, Harbor registry, Gitea, Infisical secrets, K8up backups with restic/MinIO, CrowdSec security. Docker services managed via doco-cd agent with automatic polling. GitHub Actions with self-hosted runners.",
           "URL": "https://github.com/Fiser12/Mileto-Infra-GitOps"
@@ -357,14 +376,6 @@
             "startDate": "2024-06-01",
             "competences": [
               {
-                "name": "Kubernetes",
-                "type": "technology"
-              },
-              {
-                "name": "ArgoCD",
-                "type": "technology"
-              },
-              {
                 "name": "Docker",
                 "type": "technology"
               },
@@ -375,40 +386,9 @@
               {
                 "name": "Helm",
                 "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "Nixon - Audio Transcription Platform",
-          "description": "Multi-technology audio transcription platform. Backend: Python 3.13/FastAPI with DDD+CQRS, event-driven architecture, multiple AI providers (Deepgram, Whisper, Google Speech, Groq), RAG pipeline, Typesense search. Frontend: React/TypeScript with Vite, MUI, Keycloak auth. Monorepo with pnpm + Turborepo. PostgreSQL 17 with pgvector, Redis, MinIO."
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2025-01-01",
-            "competences": [
-              {
-                "name": "Python",
-                "type": "technology"
               },
               {
-                "name": "FastAPI",
-                "type": "technology"
-              },
-              {
-                "name": "React",
-                "type": "technology"
-              },
-              {
-                "name": "TypeScript",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
+                "name": "Kubernetes",
                 "type": "technology"
               }
             ]
@@ -432,19 +412,15 @@
                 "type": "technology"
               },
               {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
                 "name": "React",
                 "type": "technology"
               },
               {
                 "name": "TypeScript",
-                "type": "technology"
-              },
-              {
-                "name": "Tailwind CSS",
-                "type": "technology"
-              },
-              {
-                "name": "NodeJS",
                 "type": "technology"
               }
             ]
@@ -622,55 +598,19 @@
     "hardSkills": [
       {
         "skill": {
-          "name": "Kubernetes",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "ArgoCD",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Python",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "FastAPI",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "React",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "NextJS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "TypeScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "Docker",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "PostgreSQL",
+          "name": "Fastapi",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "GitHub Actions",
           "type": "technology"
         }
       },
@@ -682,13 +622,49 @@
       },
       {
         "skill": {
-          "name": "Tailwind CSS",
+          "name": "Kubernetes",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NextJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
           "type": "technology"
         }
       },
       {
         "skill": {
           "name": "Swift",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Tailwind",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
           "type": "technology"
         }
       }
@@ -754,18 +730,6 @@
     "softSkills": [
       {
         "skill": {
-          "name": "Autonomy in learning",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
-          "name": "Creative thinking",
-          "type": "practice"
-        }
-      },
-      {
-        "skill": {
           "name": "Strategic vision",
           "type": "practice"
         }
@@ -788,6 +752,10 @@
     "preferences": {
       "preferredCompetences": [
         {
+          "name": "Docker",
+          "type": "technology"
+        },
+        {
           "name": "Kubernetes",
           "type": "technology"
         },
@@ -802,19 +770,10 @@
         {
           "name": "TypeScript",
           "type": "technology"
-        },
-        {
-          "name": "Docker",
-          "type": "technology"
-        },
-        {
-          "name": "FastAPI",
-          "type": "technology"
         }
       ],
       "preferredRoles": [
         "Full-stack Developer",
-        "DevOps Engineer",
         "Software Architect"
       ]
     },
@@ -828,6 +787,10 @@
   },
   "manfredSpecificData": {
     "mainStackTechs": [
+      {
+        "name": "Docker",
+        "type": "technology"
+      },
       {
         "name": "Kubernetes",
         "type": "technology"
@@ -843,14 +806,13 @@
       {
         "name": "TypeScript",
         "type": "technology"
-      },
-      {
-        "name": "Docker",
-        "type": "technology"
       }
     ],
     "desiredJobDescription": "I am a full-stack engineer with deep experience in GitOps/Kubernetes infrastructure, Python/FastAPI backends with AI integrations, and modern React/Next.js platforms. I build and operate end-to-end systems—from declarative infrastructure with ArgoCD and Talos Linux to DDD+CQRS backends with multiple AI providers and type-safe frontends with design systems.\n\n### What am I looking for?\n\n1. **End-to-end ownership**: Roles where I can own the full stack—infrastructure, backend, and frontend—delivering complete solutions rather than isolated components.\n2. **Challenging technical problems**: Projects involving distributed systems, AI/ML integrations, platform engineering, or complex domain modeling (DDD, CQRS, event-driven).\n3. **Engineering culture**: Teams that value software craftsmanship, infrastructure as code, automated testing, and continuous deployment.\n4. **Collaboration and autonomy**: A balance between collaborative teamwork and the autonomy to make architectural decisions and drive technical direction.\n5. **Continuous learning**: Environments that encourage exploration of emerging technologies and support professional growth.",
     "projects": [
+      {
+        "name": "Formidable"
+      },
       {
         "name": "Mileto Infrastructure (GitOps)"
       },
@@ -858,16 +820,13 @@
         "name": "Nixon - Audio Transcription Platform"
       },
       {
-        "name": "Zetesis Portal & PayloadAgents"
-      },
-      {
-        "name": "Formidable"
-      },
-      {
         "name": "ReclamaHoy"
       },
       {
         "name": "Sarekin Web"
+      },
+      {
+        "name": "Zetesis Portal & PayloadAgents"
       }
     ]
   }
