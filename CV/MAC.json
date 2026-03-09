@@ -368,6 +368,10 @@
             "startDate": "2024-06-01",
             "competences": [
               {
+                "name": "Argo CD",
+                "type": "technology"
+              },
+              {
                 "name": "Docker",
                 "type": "technology"
               },
