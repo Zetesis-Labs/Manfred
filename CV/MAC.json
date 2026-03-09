@@ -739,6 +739,12 @@
           "name": "Strategic vision",
           "type": "practice"
         }
+      },
+      {
+        "skill": {
+          "name": "Uncertainty tolerance",
+          "type": "practice"
+        }
       }
     ]
   },
