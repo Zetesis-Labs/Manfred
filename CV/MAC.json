@@ -330,29 +330,25 @@
     "projects": [
       {
         "details": {
-          "name": "Nixon - Audio Transcription Platform",
+          "name": "Konect Web",
           "description": "Multi-technology audio transcription platform. Backend: Python 3.13/FastAPI with DDD+CQRS, event-driven architecture, multiple AI providers (Deepgram, Whisper, Google Speech, Groq), RAG pipeline, Typesense search. Frontend: React/TypeScript with Vite, MUI, Keycloak auth. Monorepo with pnpm + Turborepo. PostgreSQL 17 with pgvector, Redis, MinIO."
         },
         "type": "sideProject",
         "roles": [
           {
             "name": "Developer",
-            "startDate": "2025-01-01",
+            "startDate": "2025-07-01",
             "competences": [
               {
-                "name": "PostgreSQL",
+                "name": "Argo CD",
                 "type": "technology"
               },
               {
-                "name": "Python",
+                "name": "Fastapi",
                 "type": "technology"
               },
               {
-                "name": "React",
-                "type": "technology"
-              },
-              {
-                "name": "TypeScript",
+                "name": "Kubernetes",
                 "type": "technology"
               }
             ]
@@ -823,10 +819,10 @@
         "name": "Formidable"
       },
       {
-        "name": "Mileto Infrastructure (GitOps)"
+        "name": "Konect Web"
       },
       {
-        "name": "Nixon - Audio Transcription Platform"
+        "name": "Mileto Infrastructure (GitOps)"
       },
       {
         "name": "ReclamaHoy"
